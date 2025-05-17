@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Akshay Endulal - Portfolio</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Font Awesome for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- Custom CSS -->
+  <style>
+    body {
+      background-color: #000;
+      color: #fff;
+    }
+
+    .bg-light, .hero {
+      background-color: #000 !important;
+    }
+
+    .navbar, .footer, .bg-dark {
+      background-color: #000 !important;
+    }
+
+    .text-dark {
+      color: #fff !important;
+    }
+
+    a {
+      color: #0dcaf0;
+    }
+
+    .accordion-button {
+      background-color: #000 !important;
+      color: #fff !important;
+    }
+
+    .accordion-body {
+      background-color: #111;
+      color: #fff;
+    }
+
+    .btn-lightblue {
+      background-color: #0dcaf0;
+      color: #000;
+    }
+
+    .btn-lightblue:hover {
+      background-color: #0bbbe0;
+      color: #000;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+      
+      <a class="navbar-brand" href="#">Akshay Endulal</a>
+      <div class="social-icons mb-3">
+      <a href="https://x.com/AkshayEndulal" class="text-white mx-3" target="_blank">
+        <i class="fa-brands fa-twitter"></i>
+
+      </a>
+      <a href="https://www.linkedin.com/in/akshay-endulal-3157a1293/" class="text-white mx-3" target="_blank">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#resume">Resume</a></li>
+          <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+        <a href="https://forms.gle/aEjuYh4eUahNLS1K9" target="_blank" class="btn btn-outline-light ms-3">Hire Me</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="bg-dark">
+    <div class="container">
+      <div class="row align-items-center py-5">
+        <div class="col-md-4 text-center">
+          <img src="protofilo6.jpg" alt="My Profile Photo" class="img-fluid rounded " style="max-width: 100%; height: auto; object-fit: cover;" />
+        </div>
+        <div class="col-md-8">
+          <h1>I'm</h1>
+          <h2 class="display-4">Akshay Endulal</h2>
+          <h2 id="typing-text" class="mt-3 h4"></h2>
+          <section id="resume" class="py-5 text">
+            <div class="container text-center">
+              <h2>Resume</h2>
+              <p>
+                <a href="Akshay Endulal.pdf" download class="btn btn-lightblue">Download Resume</a>
+              </p>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+    <button id="scrollTopBtn" class="btn btn-primary position-fixed" style="display:none; bottom:20px; right:20px;">&#8593; Top</button>
+  </header>
+
+  <!-- Hero Section -->
+<section class="hero text-center p-5">
+  <div class="container">
+    <h2>
+      <p>Welcome to my personal portfolio website. Explore my work and feel free to reach out.</p>
+    </h2>
+  </div>
+</section>
+
+
+<!-- About Section -->
+<section id="about" class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-6">About Me</h2>
+    <div class="row">
+      <div class="col-sm-6 text-center mb-6"></div>
+      <div class="col-sm-">
+        <p class="lead">Hello! I'm <strong>Akshay Endulal</strong>, a passionate tech enthusiast pursuing a career in data science.</p>
+        <p>I believe in the power of education, storytelling, and technology to transform lives. I enjoy guiding students in their career journeys, building useful projects that solve real-world problems, and sharing what I learn through blogs and mentorship.</p>
+        <p>Whether it's coding, writing, or helping someone grow, I bring passion and purpose to everything I do. I'm currently working on personal development projects, enhancing my skills in HTML, Java, and data analysis, and looking forward to internship opportunities where I can apply and grow my knowledge.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  
+  
+  <!-- Skills Section (Moved to top) -->
+  <section id="skills" class="py-5 bg-dark text-white">
+    <div class="container">
+      <h2 class="text-center mb-4">Skills</h2>
+      <div class="row text-center">
+        <div class="col-md-4 mb-4">
+          <i class="fas fa-code fa-3x mb-3 text-info"></i>
+          <h4 class="text-uppercase fw-bold text-info">Programming Languages</h4>
+          <p>Java, C++, JavaScript(basics)</p>
+        </div>
+        <div class="col-md-4 mb-4">
+          <i class="fas fa-database fa-3x mb-3 text-info"></i>
+          <h4 class="text-uppercase fw-bold text-info">Data & Database</h4>
+          <p>MySQL, Excel, Data Analysis</p>
+        </div>
+        <div class="col-md-4 mb-4">
+          <i class="fas fa-laptop-code fa-3x mb-3 text-info"></i>
+          <h4 class="text-uppercase fw-bold text-info">Web Development</h4>
+          <p>HTML, CSS, Bootstrap, GitHub</p>
+        </div>
+        <div class="col-md-4 mb-4">
+          <i class="fas fa-project-diagram fa-3x mb-3 text-info"></i>
+          <h4 class="text-uppercase fw-bold text-info">Soft Skills</h4>
+          <p>Communication, Leadership, Mentoring</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+
+
+<!-- Projects Section -->
+<section id="projects" class="py-5 bg-dark text-white">
+  <div class="container">
+    <h2 class="text-center mb-5">Projects</h2>
+    <div class="row">
+      <!-- Project 1 -->
+      <div class="col-md-6 mb-4">
+        <div class="card bg-dark text-white h-100 border border-info">
+          <div class="card-body">
+            <h5 class="card-title">Project 1: Knowledge Digest</h5>
+            <p class="card-text">
+              A web-based platform that aggregates daily news headlines from multiple sources and provides audio output and bookmarking features.
+            </p>
+            <a href="https://github.com/EndulalAkshay/knowledge-digest" class="btn btn-outline-info" target="_blank">
+              <i class="fab fa-github"></i> View on GitHub
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="col-md-6 mb-4">
+        <div class="card bg-dark text-white h-100 border border-info">
+          <div class="card-body">
+            <h5 class="card-title">Project 2: Idea in Progress</h5>
+            <p class="card-text">
+              Currently working on a new project that leverages data analytics to provide career guidance for students.
+            </p>
+            <a href="https://github.com/EndulalAkshay" class="btn btn-outline-info" target="_blank">
+              <i class="fab fa-github"></i> Visit on GitHub
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Blog Section -->
+<section id="blog" class="py-5 bg-dark text-white">
+  <div class="container">
+    <h2 class="text-center mb-4">Blog</h2>
+    <div class="accordion accordion-flush" id="blogAccordion">
+      
+      <!-- Blog Item 1 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+            <strong>How to Learn Data Structures and Algorithms (DSA)</strong>
+          </button>
+        </h2>
+<div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#blogAccordion">
+          <div class="accordion-body">
+            <p><strong>What is DSA and Why Should You Learn It?</strong><br>
+            <em>Data Structures</em> are ways to store and organize data efficiently (e.g., arrays, stacks, queues, trees).<br>
+            <em>Algorithms</em> are step-by-step procedures to solve problems (e.g., sorting, searching, recursion).</p>
+
+            <p><strong>Why Learn DSA?</strong><br>
+            ✅ Crack Coding Interviews: Top companies test DSA skills.<br>
+            ✅ Improve Problem Solving: Builds logical thinking.<br>
+            ✅ Better Code: Write optimized and scalable solutions.</p>
+
+            <p><strong> Step-by-Step Roadmap to Learn DSA</strong></p>
+
+            <ol>
+              <li><strong>Master a Programming Language:</strong> Choose C++, Java, or Python and get comfortable with basics.</li>
+              <li><strong>Learn Basic Data Structures:</strong> Arrays, Strings, Linked Lists, Stacks, Queues, Hash Maps, Recursion.</li>
+              <li><strong>Understand Core Algorithms:</strong> Sorting, Searching, Backtracking, Greedy, DP, Divide & Conquer.</li>
+              <li><strong>Practice Daily:</strong> Use LeetCode, HackerRank, Codeforces, etc. Aim for 2–3 problems/day.</li>
+              <li><strong>Follow DSA Sheets:</strong> Try Striver’s A2Z, Love Babbar’s 450, or NeetCode.</li>
+              <li><strong>Watch Quality Tutorials:</strong> Striver (Take U Forward), Abdul Bari, CodeWithHarry, Apna College.</li>
+              <li><strong>Build Projects Using DSA:</strong> e.g., To-do List using Stacks, Trie-based Search Engine.</li>
+              <li><strong>Join a Community:</strong> Reddit, Discord, college clubs or hackathons.</li>
+            </ol>
+
+            <p> Stay consistent, be patient, and keep practicing. DSA is not a sprint — it's a marathon.</p>
+          </div>
+        </div>
+      </div>
+
+      
+
+    </div>
+  </div>
+</section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Contact</h2>
+      <p>Email: <a href="mailto:endulalakshay3@gmail.com">endulalakshay3@gmail.com</a></p>
+      <p>GitHub: <a href="https://github.com/EndulalAkshay" target="_blank">EndulalAkshay</a></p>
+      <p>LinkedIn: <a href="https://linkedin.com/in/akshay-endulal-3157a1293/" target="_blank">Akshay Endulal</a></p>
+
+<form action="https://formsubmit.co/endulalakshay3@gmail.com" method="POST">
+  
+
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" name="name" id="name" class="form-control" required placeholder="Your Name" />
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" name="email" id="email" class="form-control" required placeholder="Your Email" />
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea name="message" id="message" class="form-control" rows="4" required placeholder="Your Message"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+        <p id="form-status" class="mt-2"></p>
+      </form>
+    </div>
+  </section>
+
+  
+
+  <!-- Footer -->
+  <footer class="text-center bg-dark text-white py-4">
+    <div class="social-icons mb-3">
+      <a href="https://x.com/AkshayEndulal" class="text-white mx-3" target="_blank">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/akshay-endulal-3157a1293/" class="text-white mx-3" target="_blank">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </div>
+    <p class="mb-0">&copy; 2025: Designed by Akshay Endulal.</p>
+    <p>All Rights Reserved</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom JS -->
+  <script src="script.js" defer></script>
+
+  <script>
+  const form = document.getElementById('contact-form');
+  const status = document.getElementById('form-status');
+
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    
+    const data = {
+      name: form.name.value,
+      email: form.email.value,
+      message: form.message.value
+    };
+
+    try {
+      const response = await fetch(form.action, {
+        method: 'POST',
+        body: JSON.stringify(data),
+        headers: {
+          'Content-Type': 'application/json'
+        }
+      });
+
+      const result = await response.json();
+      status.innerHTML = "Message sent successfully!";
+      form.reset();
+    } catch (error) {
+      status.innerHTML = "Something went wrong. Please try again.";
+    }
+  });
+</script>
+
+</body>
+</html>
