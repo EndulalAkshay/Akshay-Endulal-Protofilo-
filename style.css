@@ -275,6 +275,11 @@ body {
   background-color: #000;
   color: #fff;
 }
+body {
+  background-color: #e4d5e0;
+  color: #fff; /* adjust text color if needed */
+}
+
 
 /* Ensure light backgrounds are overridden */
 .bg-light {
@@ -290,3 +295,4 @@ body {
 section h2, section p {
   color: #fff;
 }
+
