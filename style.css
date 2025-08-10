@@ -271,10 +271,7 @@ body.dark-mode .footer {
   background-color: #222222;
 }
 /* Make the entire page background black */
-body {
-  background-color: #000;
-  color: #fff;
-}
+
 body {
   background-color: #e4d5e0;
   color: #fff; /* adjust text color if needed */
@@ -295,4 +292,5 @@ body {
 section h2, section p {
   color: #fff;
 }
+
 
